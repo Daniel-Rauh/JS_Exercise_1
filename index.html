@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <img src="assets/img/logo.png" alt="" class="logo">
+        <div class="hamburger">
+            <button onclick="showMenu()"></button>
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+            <div class="menu" id="menu">
+                <a href="#" id="link-one">Home</a>
+                <a href="#" id="link-two">About</a>
+                <a href="#" id="link-three">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <section id="hero"></section>
+    <section id="apply">
+        <h1>Become President of the US</h1>
+        <h2>Apply for the biggest job in the world!</h3>
+        <p>How does one become president of the US? Once it was thought that you would have to have a long career in politics and be one of the smartest people in the country. Yet time and time again the Republicans have prooved this wrong. Just look at Bush or Trump, anyone can do it! What's the worst that could happen?</p>
+        <article>
+            <div>
+                <div class="accordion" id="accordion-one">
+                    <h3>How do I apply?</h3>
+                    <button onclick="apply()">+</button>
+                </div>
+                <div id="application">
+                    <p>I don't know, just say you'll do it I guess.</p>
+                </div>
+            </div>
+            <div>
+                <div class="accordion" id="accordion-two">
+                    <h3>What are the entry requirements?</h3>
+                    <button onclick="req()">+</button>
+                </div>
+                <div id="req">
+                    <p>Appearantly, none</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer id="footer">
+        <div>
+            <p>Designed by Annas. Created by me</p>
+        </div>
+        <div>
+            <button onclick="light()"></button>
+            <button onclick="dark()"></button>
+            <button onclick="fancy()"></button>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
