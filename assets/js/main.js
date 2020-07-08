@@ -26,18 +26,26 @@ function apply() {
     y++
     if (y % 2 == 1) {
         document.getElementById("application").style.height = "60px"
+        document.getElementById("plus").innerHTML = "-"
+        document.getElementById("plus").style.padding = "0px 2px"
     }
     else {
         document.getElementById("application").style.height = "0px"
+        document.getElementById("plus").innerHTML = "+"
+        document.getElementById("plus").style.padding = "0px 0px"
     }
 }
 function req() {
     z++
     if (z % 2 == 1) {
         document.getElementById("req").style.height = "60px"
+        document.getElementById("plus2").innerHTML = "-"
+        document.getElementById("plus2").style.padding = "0px 2px"
     }
     else {
         document.getElementById("req").style.height = "0px"
+        document.getElementById("plus2").innerHTML = "+"
+        document.getElementById("plus2").style.padding = "0px 0px"
     }
 }
 function light() {
